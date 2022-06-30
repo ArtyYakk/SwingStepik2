@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54c6d229-9cb7-4b73-9597-c701ff32a0bc" name="Changes" comment="Теперь координаты мыши транслируются в JLabel">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwingStepik.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JFrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/figures/TrafficLights.java" afterDir="false" />
-    </list>
+    <list default="true" id="54c6d229-9cb7-4b73-9597-c701ff32a0bc" name="Changes" comment="Доделал козырьки с боков" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +127,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -153,6 +154,7 @@
     <MESSAGE value="Начал делать треугольники с помощью полигонов" />
     <MESSAGE value="С сеткой - удобнее" />
     <MESSAGE value="Теперь координаты мыши транслируются в JLabel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Теперь координаты мыши транслируются в JLabel" />
+    <MESSAGE value="Доделал козырьки с боков" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доделал козырьки с боков" />
   </component>
 </project>
