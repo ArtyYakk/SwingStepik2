@@ -9,10 +9,6 @@ public class TrafficLights extends Canvas {
          setBackground(Color.WHITE);
          //setForeground(Color.ORANGE);
 
-        g.drawString(((305-210)+ " " + (589-494)),50,50);
-
-
-
 
         // Корпус
         g.setColor(new Color(50,50,50));
@@ -25,13 +21,7 @@ public class TrafficLights extends Canvas {
         g.fillArc(446,553, 34, 34,270,360);//downright
 
         // Ножка
-        //g.fillRect(372,607, 60, 80);
-        g.fillRect(374,601, 56, 92);
-        g.fillRect(367,605, 70, 80);
-        g.fillArc(365, 600, 18, 18, 90,90);//upleft
-        g.fillArc(365, 600+76, 18, 18, 180,90);//downleft
-        g.fillArc(421, 600, 18, 18, 0,90);//upright
-        g.fillArc(421, 600+76, 18, 18, 270,90);//downright
+        g.fillRoundRect(367,601,70,80, 18,18);
 
         // Белый козырек
         g.setColor(new Color(255,255,255));
@@ -74,9 +64,12 @@ public class TrafficLights extends Canvas {
         g.copyArea(490,147,100,90,0,150);
         g.copyArea(490,147,100,90,0,300);
 
+        // Арочка сверху
+        g.fillArc(350, 94-18, 100, 36,0,180);
 
-
-
+        g.fillArc(350, 101-15, 15, 15,0,360);
+        g.fillArc(449-15, 101-15, 15, 15,0,360);
+        g.fillRect(357,85,83,16);
 
     }
 }
