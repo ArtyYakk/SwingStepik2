@@ -8,7 +8,8 @@ import figures.*;
 
 public class JFrameTest extends JFrame{
     JLabel label = new JLabel("Move your mouse to see the coordinates: ");
-    SnowMan aa = new SnowMan();
+    //SnowMan aa = new SnowMan();
+    Car aa = new Car();
 
     public void createGUI(){
         JFrame frame = new JFrame("Test frame");
