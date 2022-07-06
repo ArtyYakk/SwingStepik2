@@ -71,5 +71,6 @@ public class TrafficLights extends Canvas {
         g.fillArc(449-15, 101-15, 15, 15,0,360);
         g.fillRect(357,85,83,16);
 
+
     }
 }

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54c6d229-9cb7-4b73-9597-c701ff32a0bc" name="Changes" comment="Доделал козырьки с боков">
+    <list default="true" id="54c6d229-9cb7-4b73-9597-c701ff32a0bc" name="Changes" comment="Финал">
+      <change afterPath="$PROJECT_DIR$/src/figures/SnowMan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JFrameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/figures/TrafficLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figures/TrafficLights.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph" />
+      <module name="SwingStepik" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaPaintUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPaintUI" />
+      <module name="SwingStepik" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SwingStepik" />
@@ -53,6 +69,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.JavaPaintUI" />
+        <item itemvalue="Application.Graph" />
         <item itemvalue="Application.FrameProba" />
       </list>
     </recent_temporary>
@@ -136,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656621028889</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Финал">
+      <created>1656863023057</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656863023057</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +197,7 @@
     <MESSAGE value="С сеткой - удобнее" />
     <MESSAGE value="Теперь координаты мыши транслируются в JLabel" />
     <MESSAGE value="Доделал козырьки с боков" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доделал козырьки с боков" />
+    <MESSAGE value="Финал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Финал" />
   </component>
 </project>
