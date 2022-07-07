@@ -47,7 +47,7 @@ public class JFrameTest extends JFrame{
         frame.add(label, BorderLayout.SOUTH);
 
         frame.setPreferredSize(new Dimension(800, 800));
-        frame.setLocation(1115, 150);
+        frame.setLocation(1115, 240);
         frame.pack();
         frame.setVisible(true);
     }
