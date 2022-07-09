@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54c6d229-9cb7-4b73-9597-c701ff32a0bc" name="Changes" comment="Начал делать машину, изучать Path2D">
+    <list default="true" id="54c6d229-9cb7-4b73-9597-c701ff32a0bc" name="Changes" comment="Покрасил элементы машины, сделанные с помощью Path2D.Double">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JFrameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/figures/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figures/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657140372541</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Покрасил элементы машины, сделанные с помощью Path2D.Double">
+      <created>1657226686277</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657226686277</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +219,7 @@
     <MESSAGE value="Финал" />
     <MESSAGE value="Добавлена возможность рисовать точки и линии, добавлен снеговик" />
     <MESSAGE value="Начал делать машину, изучать Path2D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал делать машину, изучать Path2D" />
+    <MESSAGE value="Покрасил элементы машины, сделанные с помощью Path2D.Double" />
+    <option name="LAST_COMMIT_MESSAGE" value="Покрасил элементы машины, сделанные с помощью Path2D.Double" />
   </component>
 </project>

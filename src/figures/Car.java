@@ -12,16 +12,24 @@ public class Car extends Canvas {
         setBackground(Color.WHITE);
         setForeground(Color.BLACK);
         Graphics2D g2 = (Graphics2D)g;
-        g2.setStroke(new BasicStroke(7)); //Базовая толщина линий
+        g2.setStroke(new BasicStroke(9)); //Базовая толщина линий
 
         Path2D.Double zet = new Path2D.Double();
         Path2D.Double fara = new Path2D.Double();
         Path2D.Double korpus = new Path2D.Double();
         Path2D.Double okna = new Path2D.Double();
+        Path2D.Double fin = new Path2D.Double();
+
+        fin.moveTo(68, 572);
+        fin.quadTo(68, 572,594, 379);
+        fin.quadTo(594, 379,738, 574);
+        fin.closePath();
+        g2.setColor(Color.YELLOW);
+        g2.fill(fin);
 
         korpus.moveTo(738,573); //Бампер
         korpus.curveTo(738,573,766,551,740,519);
-        korpus.curveTo(740,519,735,405,594,383);
+        korpus.curveTo(740,519,735,405,591, 382);
         g2.setColor(Color.BLACK);
         g2.draw(korpus);
         g2.setColor(Color.YELLOW);
@@ -30,7 +38,7 @@ public class Car extends Canvas {
         korpus.moveTo(69,574); //Багажник
         korpus.curveTo(69,574,15,520,59,497);
         korpus.curveTo(60,492,58,418,100,381);
-        korpus.curveTo(102,379,300,110,592,381);
+        korpus.curveTo(102,379,300,110,591, 382);
         g2.setColor(Color.BLACK);
         g2.draw(korpus);
         g2.setColor(Color.YELLOW);
@@ -63,7 +71,7 @@ public class Car extends Canvas {
         g2.draw(zet);
 
         /////////////////////////////////////////////////////////////////////////
-        g2.setStroke(new BasicStroke(7));
+        g2.setStroke(new BasicStroke(10));
         g.drawArc(117,490,170,170,0,180); //Полукруг над колесом
         g.drawArc(475,490,170,170,0,180);
 
@@ -72,7 +80,7 @@ public class Car extends Canvas {
         g.fillArc(475,490,170,170,0,180);
         g.setColor(Color.BLACK);
 
-
+        g2.setStroke(new BasicStroke(5));
         g.drawLine(287,575,475,575); //Дно машины
         g.drawLine(72,575,116,575);
         g.drawLine(644,575,735,575);
